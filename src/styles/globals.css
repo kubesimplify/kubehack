@@ -1,0 +1,45 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --light-background: 255 255 255;
+  /* --light-background:rgba(164, 195, 255, 0.08);; */
+  --main-cyan: #52d6ff;
+}
+
+html {
+  font-family: 'Satoshi', sans-serif;
+  scroll-behavior: smooth;
+  overflow: overlay;
+}
+
+@layer components {
+  .blob {
+    border-radius: 43% 57% 62% 38% / 52% 54% 46% 48%;
+  }
+  .blob:hover {
+    border-radius: 43% 57% 56% 44% / 50% 73% 27% 50%;
+  }
+}
+
+* {
+  transition: all 100ms ease-out;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #f4f3f36b;
+}
