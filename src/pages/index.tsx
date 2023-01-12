@@ -1,5 +1,6 @@
 import About from "@components/About";
 import Hero from "@components/Hero";
+import Speakers from "@components/Speakers";
 import Sponser from "@components/Sponser";
 import Track from "@components/Track";
 import Head from "next/head";
@@ -26,6 +27,7 @@ export default function Home() {
         <Hero />
         <About />
         <Track />
+        <Speakers />
         <Sponser />
       </main>
     </>
