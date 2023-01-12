@@ -30,9 +30,9 @@ interface SpeakerCardProps {
 }
 
 const SpeakerCard = ({ name, imageUrl, socials }: SpeakerCardProps) => (
-  <div className="group relative p-2 bg-light-background/10 rounded-3xl overflow-hidden">
+  <div className="group relative px-3 py-1 sm:p-3 bg-light-background/10 rounded-3xl overflow-hidden">
     <div className="flex flex-col gap-1 sm:gap-3 items-center justify-center p-1">
-      <div className="relative w-[111px] h-[127px] sm:w-[148px] sm:h-[170px] ">
+      <div className="relative w-[111px] h-[120px] sm:w-[148px] sm:h-[150px] rounded-[20px] ">
         <Image
           src={imageUrl}
           alt="image"
