@@ -1,3 +1,4 @@
+import About from "@components/About";
 import Head from "next/head";
 
 export default function Home() {
@@ -19,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="max-w-6xl mx-auto flex flex-col gap-4 mb-2">
-        hello
+        <About />
       </main>
     </>
   );
