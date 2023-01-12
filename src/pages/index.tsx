@@ -1,4 +1,5 @@
 import About from "@components/About";
+import Track from "@components/Track";
 import Head from "next/head";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       </Head>
       <main className="max-w-6xl mx-auto flex flex-col gap-4 mb-2">
         <About />
+        <Track />
       </main>
     </>
   );
