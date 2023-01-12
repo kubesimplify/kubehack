@@ -1,4 +1,5 @@
 import About from "@components/About";
+import Sponser from "@components/Sponser";
 import Track from "@components/Track";
 import Head from "next/head";
 
@@ -23,6 +24,7 @@ export default function Home() {
       <main className="max-w-6xl mx-auto flex flex-col gap-4 mb-2">
         <About />
         <Track />
+        <Sponser />
       </main>
     </>
   );
