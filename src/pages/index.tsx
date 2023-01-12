@@ -1,5 +1,6 @@
 import About from "@components/About";
 import Hero from "@components/Hero";
+import Prizes from "@components/Prizes";
 import Speakers from "@components/Speakers";
 import Sponser from "@components/Sponser";
 import Track from "@components/Track";
@@ -27,6 +28,7 @@ export default function Home() {
         <Hero />
         <About />
         <Track />
+        <Prizes />
         <Speakers />
         <Sponser />
       </main>

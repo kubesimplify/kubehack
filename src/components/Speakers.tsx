@@ -30,16 +30,18 @@ interface SpeakerCardProps {
 }
 
 const SpeakerCard = ({ name, imageUrl, socials }: SpeakerCardProps) => (
-  <div className="group relative flex flex-col gap-1 sm:gap-3 items-center justify-center w-36 h-44 sm:w-48 sm:h-60 bg-light-background/10 rounded-3xl overflow-hidden">
-    <div className="relative w-[111px] h-[127px] sm:w-[148px] sm:h-[170px] ">
-      <Image
-        src={imageUrl}
-        alt="image"
-        className="rounded-[20px]" 
-        fill={true}
-      />
+  <div className="group relative p-2 bg-light-background/10 rounded-3xl overflow-hidden">
+    <div className="flex flex-col gap-1 sm:gap-3 items-center justify-center p-1">
+      <div className="relative w-[111px] h-[127px] sm:w-[148px] sm:h-[170px] ">
+        <Image
+          src={imageUrl}
+          alt="image"
+          className="rounded-[20px]"
+          fill={true}
+        />
+      </div>
+      <p className="sm:text-xl text-sm font-semibold sm:font-bold">{name}</p>
     </div>
-    <p className="sm:text-xl font-bold">{name}</p>
     <div className="hidden absolute top-0 left-0 group-hover:flex flex-col items-center border-2 justify-center gap-3 w-full h-full bg-indigo-900/90 rounded-3xl">
       <p className="sm:text-xl font-bold">{name}</p>
       <Socials {...socials} />
