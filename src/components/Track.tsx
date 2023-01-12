@@ -22,7 +22,7 @@ const TrackBlob = ({
   name: string;
   backgroundImg: string;
 }) => (
-  <div className="relative group sm:w-48 sm:h-40 w-24 h-20 blob border-2 overflow-hidden">
+  <div className="relative group w-32 h-24 sm:w-48 sm:h-40 blob border-2 overflow-hidden">
     <div
       className="w-48 h-40 bg-center bg-contain overflow-hidden opacity-40"
       style={{
