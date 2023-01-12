@@ -4,6 +4,7 @@ import Prizes from "@components/Prizes";
 import Speakers from "@components/Speakers";
 import Sponser from "@components/Sponser";
 import Track from "@components/Track";
+import Faq from "@components/Faq";
 import Head from "next/head";
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
         <Prizes />
         <Speakers />
         <Sponser />
+        <Faq />
       </main>
     </>
   );
