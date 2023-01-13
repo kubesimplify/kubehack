@@ -10,27 +10,27 @@ export const socials = {
 export const tracks = [
   {
     id: 1,
-    name: "Blockchain",
+    name: "Automation",
     backgroundImg:
       "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
   },
   {
     id: 2,
-    name: "IoT",
+    name: "Environment",
     backgroundImg:
       "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
   },
   {
     id: 3,
-    name: "AR & VR",
+    name: "WASM",
     backgroundImg:
-      "https://images.unsplash.com/photo-1576633587382-13ddf37b1fc1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
+      "https://miro.medium.com/max/828/1*3tuplcAChrIQQaSFRv-8fg.webp",
   },
   {
     id: 4,
     name: "AI & ML",
     backgroundImg:
-      "https://images.unsplash.com/photo-1576633587382-13ddf37b1fc1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
+      "https://images.unsplash.com/photo-1555255707-c07966088b7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWFjaGluZSUyMGxlYXJuaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
   },
   {
     id: 5,
@@ -40,7 +40,7 @@ export const tracks = [
   },
   {
     id: 6,
-    name: "Data Science",
+    name: "Open Innovation",
     backgroundImg:
       "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80",
   },

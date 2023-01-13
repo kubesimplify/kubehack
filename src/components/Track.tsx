@@ -30,7 +30,7 @@ const TrackBlob = ({
       }}
     ></div>
     <p className=" absolute top-0 left-0 w-full h-full blob bg-light-background/5 group-hover:bg-cyan/20">
-      <span className="flex items-center justify-center sm:text-3xl h-full font-bold">
+      <span className="flex items-center justify-center text-center sm:text-3xl h-full font-bold">
         {name}
       </span>
     </p>

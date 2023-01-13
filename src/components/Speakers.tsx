@@ -42,7 +42,7 @@ const SpeakerCard = ({ name, imageUrl, socials }: SpeakerCardProps) => (
       </div>
       <p className="sm:text-xl text-sm font-semibold sm:font-bold">{name}</p>
     </div>
-    <div className="hidden absolute top-0 left-0 group-hover:flex flex-col items-center border-2 justify-center gap-3 w-full h-full bg-indigo-900/90 rounded-3xl">
+    <div className="hidden absolute top-0 left-0 group-hover:flex flex-col items-center border-2 justify-center gap-3 w-full h-full bg-[#00072F]/90 rounded-3xl">
       <p className="sm:text-xl font-bold">{name}</p>
       <Socials {...socials} />
     </div>
