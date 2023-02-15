@@ -16,7 +16,7 @@ const hackathon = {
   date: 'Coming Soon...',
   aboutUs: 'KubeHack is the ultimate cloud native hackathon, bringing together developers, engineers and tech enthusiasts to create innovative solutions in the cloud native ecosystem. Our event offers mentorship, workshops, and prizes for those looking to learn, experiment and innovate in the cloud. Join us and be a part of the cloud native revolution!',
   blur: {
-    sponsers: true,
+    sponsors: true,
     speakers: true,
     prizes: true,
     tracks: true
@@ -179,46 +179,46 @@ const hackathon = {
       },
     },
   ],
-  sponsers: [
+  sponsors: [
     {
       id: 1,
-      sponserLogo: CivoLogo,
+      sponsorLogo: CivoLogo,
     },
     {
       id: 2,
-      sponserLogo: "https://cdn.discordapp.com/attachments/1011970131112505378/1062977570771042395/image.png"
+      sponsorLogo: "https://cdn.discordapp.com/attachments/1011970131112505378/1062977570771042395/image.png"
     },
     {
       id: 3,
-      sponserLogo: CivoLogo,
+      sponsorLogo: CivoLogo,
     },
     {
       id: 4,
-      sponserLogo: "https://cdn.discordapp.com/attachments/1011970131112505378/1062977570771042395/image.png"
+      sponsorLogo: "https://cdn.discordapp.com/attachments/1011970131112505378/1062977570771042395/image.png"
     },
     {
       id: 5,
-      sponserLogo: CivoLogo,
+      sponsorLogo: CivoLogo,
     },
     {
       id: 6,
-      sponserLogo: "https://cdn.discordapp.com/attachments/1011970131112505378/1062977570771042395/image.png"
+      sponsorLogo: "https://cdn.discordapp.com/attachments/1011970131112505378/1062977570771042395/image.png"
     },
     {
       id: 7,
-      sponserLogo: CivoLogo,
+      sponsorLogo: CivoLogo,
     },
     {
       id: 8,
-      sponserLogo: "https://cdn.discordapp.com/attachments/1011970131112505378/1062977570771042395/image.png"
+      sponsorLogo: "https://cdn.discordapp.com/attachments/1011970131112505378/1062977570771042395/image.png"
     },
     {
       id: 9,
-      sponserLogo: CivoLogo,
+      sponsorLogo: CivoLogo,
     },
     {
       id: 10,
-      sponserLogo: "https://cdn.discordapp.com/attachments/1011970131112505378/1062977570771042395/image.png"
+      sponsorLogo: "https://cdn.discordapp.com/attachments/1011970131112505378/1062977570771042395/image.png"
     }
   ],
   faq: [

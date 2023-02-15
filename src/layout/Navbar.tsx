@@ -39,6 +39,6 @@ const nav = [
   { id: 2, name: "Track", href: "#track" },
   { id: 3, name: "Prizes", href: "#prizes" },
   { id: 4, name: "Speakers", href: "#speakers" },
-  { id: 5, name: "Sponsers", href: "#sponsers" },
+  { id: 5, name: "Sponsors", href: "#sponsors" },
   { id: 6, name: "FAQ", href: "#faq" },
 ];
