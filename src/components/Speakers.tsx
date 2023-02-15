@@ -1,4 +1,4 @@
-import { speakers } from "@data/index";
+import hackathon from "@data/index";
 import Heading from "./ui/Heading";
 import SectionWrapper from "./ui/SectionWrapper";
 import Socials from "./Socials";
@@ -8,8 +8,12 @@ const Speakers = () => {
   return (
     <SectionWrapper id="speakers">
       <Heading>Speakers</Heading>
-      <div className="flex flex-wrap gap-5 justify-center">
-        {speakers.map((speaker) => (
+      <div
+        className={`flex flex-wrap gap-5 justify-center ${
+          hackathon?.blur?.speakers && "blur-lg"
+        }`}
+      >
+        {hackathon.speakers.map((speaker) => (
           <SpeakerCard key={speaker.id} {...speaker} />
         ))}
       </div>
@@ -42,9 +46,11 @@ const SpeakerCard = ({ name, imageUrl, socials }: SpeakerCardProps) => (
       </div>
       <p className="sm:text-xl text-sm font-semibold sm:font-bold">{name}</p>
     </div>
-    <div className="hidden absolute top-0 left-0 group-hover:flex flex-col items-center border-2 justify-center gap-3 w-full h-full bg-[#00072F]/90 rounded-3xl">
-      <p className="sm:text-xl font-bold">{name}</p>
-      <Socials {...socials} />
-    </div>
+    {!hackathon.blur.speakers && (
+      <div className="hidden absolute top-0 left-0 group-hover:flex flex-col items-center border-2 justify-center gap-3 w-full h-full bg-[#00072F]/90 rounded-3xl">
+        <p className="sm:text-xl font-bold">{name}</p>
+        <Socials {...socials} />
+      </div>
+    )}
   </div>
 );

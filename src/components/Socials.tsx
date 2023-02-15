@@ -25,13 +25,13 @@ const Socials = ({ instagram, linkedin, twitter, discord }: SocialProps) => {
 
 export default Socials;
 
-const Link = ({ link, icon }: { link: string; icon: ()=>JSX.Element }) => (
+const Link = ({ link, icon }: { link: string; icon: JSX.Element }) => (
   <a
     href={link}
     target="_blank"
     rel="noreferrer"
     className="bg-light-background/20 rounded-lg p-2 cursor-pointer"
   >
-    {icon()}
+    {icon}
   </a>
 );

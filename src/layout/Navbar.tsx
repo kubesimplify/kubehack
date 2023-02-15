@@ -1,12 +1,15 @@
 import { ArrowTopRight } from "@assets/icon";
 import Logo from "@assets/Logo";
 import Button from "@components/ui/Button";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-30 w-full bg-sky-900  h-20 flex items-center tracking-wider">
       <div className="flex items-center justify-between mx-4 md:justify-around md:mx-auto w-full font-bold max-w-6xl">
-        <Logo />
+        <Link href="/">
+          <Logo />
+        </Link>
         <div className="hidden lg:flex gap-5">
           {nav.map((el) => (
             <a
@@ -19,7 +22,10 @@ const Navbar = () => {
           ))}
         </div>
         <div>
-          <Button> <ArrowTopRight /> Pre-Register</Button>
+          <Button>
+            {" "}
+            <ArrowTopRight /> Coming Soon...
+          </Button>
         </div>
       </div>
     </nav>
