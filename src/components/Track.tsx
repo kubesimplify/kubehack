@@ -1,4 +1,4 @@
-import { tracks } from "@data/index";
+import hackathon from "@data/index";
 import Heading from "./ui/Heading";
 import SectionWrapper from "./ui/SectionWrapper";
 
@@ -6,8 +6,8 @@ const Track = () => {
   return (
     <SectionWrapper id="track">
       <Heading>Tracks</Heading>
-      <div className="flex flex-wrap gap-5 justify-center">
-        {tracks.map((track) => (
+      <div className="flex flex-wrap gap-5 justify-center blur-md">
+        {hackathon.tracks.map((track) => (
           <TrackBlob key={track.id} {...track} />
         ))}
       </div>

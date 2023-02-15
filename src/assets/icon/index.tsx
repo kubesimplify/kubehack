@@ -80,7 +80,7 @@ const Plus = () => (
   </svg>
 );
 
-const InstagramIcon = () => (
+const InstagramIcon = (
   <svg
     width="20"
     height="20"
@@ -94,7 +94,7 @@ const InstagramIcon = () => (
     />
   </svg>
 );
-const TwitterIcon = () => (
+const TwitterIcon = (
   <svg
     width="20"
     height="18"
@@ -109,7 +109,7 @@ const TwitterIcon = () => (
   </svg>
 );
 
-const LinkedinIcon = () => (
+const LinkedinIcon = (
   <svg
     width="20"
     height="18"
@@ -124,7 +124,7 @@ const LinkedinIcon = () => (
   </svg>
 );
 
-const DiscordIcon = () => (
+const DiscordIcon = (
   <svg
     width="22"
     height="16"
