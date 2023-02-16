@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="sm:w-3/5 flex flex-col gap-5 pl-5">
           <h1 className="text-5xl font-bold">
             <span className="text-cyan">KubeHack</span> is India&#39;s first{" "}
-            <br /> In-Person Cloud native{" "}
+            <br /> <span className="text-cyan">In-Person</span> Cloud native{" "}
             <span className="text-cyan">hackathon</span>
           </h1>
           <p className="text-lg">

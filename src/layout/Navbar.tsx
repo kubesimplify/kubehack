@@ -23,8 +23,8 @@ const Navbar = () => {
         </div>
         <div>
           <Button>
-            {" "}
-            <ArrowTopRight /> Coming Soon...
+            <ArrowTopRight />
+            Coming Soon...
           </Button>
         </div>
       </div>

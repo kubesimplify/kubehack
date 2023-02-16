@@ -7,6 +7,9 @@ import Track from "@components/Track";
 import Faq from "@components/Faq";
 import Head from "next/head";
 import Gradients from "@components/Gradient";
+import dynamic from "next/dynamic";
+
+const Particle = dynamic(() => import("@components/Particles"), { ssr: false });
 
 export default function Home() {
   return (
@@ -28,6 +31,7 @@ export default function Home() {
       </Head>
       <main className="max-w-6xl mx-auto flex flex-col gap-4 mb-2 px-2">
         <Gradients />
+        <Particle />
         <Hero />
         <About />
         <Track />
