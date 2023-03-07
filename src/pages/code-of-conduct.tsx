@@ -121,15 +121,15 @@ const Cocpage = () => {
             workshop venues and event-related social events.
           </p>
           <h1 className="font-bold text-xl underline ring-offset-8">
-            Consequesnces of Violations
+            Consequences of Violations
           </h1>
           <p>
             In case any participant violates this Code of Conduct, the organizer
             may, at their own discretion:
           </p>
           <ul className="list-disc pl-6">
-            <li>expel them from the hackathon</li>
-            <li>report their behaviour to local law enforcement.</li>
+            <li>Expel them from the hackathon.</li>
+            <li>Report their behaviour to local law enforcement.</li>
           </ul>
         </div>
       </main>
